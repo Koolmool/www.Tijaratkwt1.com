@@ -1,6 +1,6 @@
 import React from "react";
-import { Box, Flex, Text, Button, useColorMode } from "@chakra-ui/react";
-import { FaUser } from "react-icons/fa";
+import { Box, Flex, Text, useColorMode } from "@chakra-ui/react";
+import SideMenu from "./SideMenu";
 
 const TopBar = () => {
   const { colorMode } = useColorMode();
@@ -10,9 +10,7 @@ const TopBar = () => {
         <Text fontSize="lg" fontWeight="bold">
           Tiجارت
         </Text>
-        <Button colorScheme="teal">
-          <FaUser />
-        </Button>
+        <SideMenu />
       </Flex>
     </Box>
   );

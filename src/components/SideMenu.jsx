@@ -14,7 +14,13 @@ const SideMenu = () => {
         <DrawerContent>
           <DrawerCloseButton />
           <DrawerHeader>Menu</DrawerHeader>
-          <DrawerBody>{/* Menu items will go here */}</DrawerBody>
+          <DrawerBody>
+            {/* Replace this comment with actual menu items */}
+            <p>Profile</p>
+            <p>Settings</p>
+            <p>Orders</p>
+            <p>Log out</p>
+          </DrawerBody>
         </DrawerContent>
       </Drawer>
     </>
