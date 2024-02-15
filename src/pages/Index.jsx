@@ -16,7 +16,21 @@ const Index = () => {
   };
 
   return (
-    <Flex width="full" align="center" justifyContent="center" padding={10}>
+    <Flex width="full" align="center" justifyContent="space-evenly" padding={10}>
+      <Box maxW="lg" borderWidth="1px" borderRadius="lg" overflow="hidden" padding={6}>
+        <Image src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxwcm9kdWN0fGVufDB8fHx8MTcwNjI1MTAxNnww&ixlib=rb-4.0.3&q=80&w=1080" alt="Product Image" borderRadius="md" />
+        <Box p={6}>
+          <Stack spacing={2}>
+            <Heading size="xl">BIKES</Heading>
+            <Text fontWeight="bold" fontSize="2xl">
+              $199.99
+            </Text>
+            <Button colorScheme="blue" onClick={() => (window.location.href = "/products")}>
+              View Products
+            </Button>
+          </Stack>
+        </Box>
+      </Box>
       <Box maxW="lg" borderWidth="1px" borderRadius="lg" overflow="hidden" padding={6}>
         <Image src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxwcm9kdWN0fGVufDB8fHx8MTcwNjI1MTAxNnww&ixlib=rb-4.0.3&q=80&w=1080" alt="Product Image" borderRadius="md" />
 
