@@ -1,0 +1,13 @@
+import React from "react";
+import { Box, Text } from "@chakra-ui/react";
+
+const BikesProducts = () => {
+  return (
+    <Box>
+      <Text fontSize="2xl">Bike Products</Text>
+      {/* List of bike products goes here */}
+    </Box>
+  );
+};
+
+export default BikesProducts;
