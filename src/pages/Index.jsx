@@ -31,10 +31,6 @@ const Index = () => {
             </Button>
           </Stack>
         </Box>
-
-        <Button leftIcon={<FaShoppingCart />} colorScheme="teal" variant="solid" onClick={handleAddToCart}>
-          Add to Cart
-        </Button>
       </Box>
     </Flex>
   );
