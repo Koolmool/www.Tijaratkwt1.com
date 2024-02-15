@@ -1,5 +1,6 @@
 import React from "react";
 import { Drawer, DrawerBody, DrawerHeader, DrawerOverlay, DrawerContent, DrawerCloseButton, Button, useDisclosure } from "@chakra-ui/react";
+import { useNavigate } from "react-router-dom";
 
 const SideMenu = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
@@ -15,7 +16,7 @@ const SideMenu = () => {
           <DrawerCloseButton />
           <DrawerHeader>Menu</DrawerHeader>
           <DrawerBody>
-            <Button w="100%" mb={4} colorScheme="teal">
+            <Button w="100%" mb={4} colorScheme="teal" onClick={() => navigate("/login")}>
               Login
             </Button>
           </DrawerBody>
