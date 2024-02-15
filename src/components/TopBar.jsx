@@ -1,5 +1,6 @@
 import React from "react";
 import { Box, Flex, Text, useColorMode } from "@chakra-ui/react";
+import SideMenu from "./SideMenu";
 
 const TopBar = () => {
   const { colorMode } = useColorMode();
@@ -9,7 +10,7 @@ const TopBar = () => {
         <Text fontSize="lg" fontWeight="bold">
           Tiجارت
         </Text>
-        {/* Additional content can be added here */}
+        <SideMenu />
       </Flex>
     </Box>
   );
