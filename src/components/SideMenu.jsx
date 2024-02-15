@@ -14,7 +14,11 @@ const SideMenu = () => {
         <DrawerContent>
           <DrawerCloseButton />
           <DrawerHeader>Menu</DrawerHeader>
-          <DrawerBody>{/* Replace this comment with actual menu items */}</DrawerBody>
+          <DrawerBody>
+            <Button w="100%" mb={4} colorScheme="teal">
+              Login
+            </Button>
+          </DrawerBody>
         </DrawerContent>
       </Drawer>
     </>
