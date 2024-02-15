@@ -26,9 +26,9 @@ const Index = () => {
             <Text fontWeight="bold" fontSize="2xl">
               $299.99
             </Text>
-            <Text fontSize="md" color="gray.600">
-              This is the product description. It will tell you all about the features and benefits of the product. It is a great product that will meet your needs and exceed your expectations.
-            </Text>
+            <Button colorScheme="blue" onClick={() => (window.location.href = "/products")}>
+              View Products
+            </Button>
           </Stack>
         </Box>
 

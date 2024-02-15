@@ -1,11 +1,15 @@
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
-import Index from "./pages/Index.jsx";
+import Index from "./pages/Index";
+import Products from "./pages/Products";
+import ShoppingCart from "./pages/ShoppingCart";
 
 function App() {
   return (
     <Router>
       <Routes>
-        <Route exact path="/" element={<Index />} />
+        <Route path="/" element={<Index />} />
+        <Route path="/products" element={<Products />} />
+        <Route path="/cart" element={<ShoppingCart />} />
       </Routes>
     </Router>
   );
