@@ -22,9 +22,13 @@ const theme = extendTheme({
   },
   styles: {
     global: {
-      // Setting default styles to use the new background color
+      // Setting default styles to use the new background color and improve responsiveness
       body: {
         bg: "background",
+        padding: { base: "0", md: "4" },
+      },
+      html: {
+        scrollBehavior: "smooth",
       },
     },
   },

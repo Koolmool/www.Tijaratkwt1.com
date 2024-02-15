@@ -8,7 +8,7 @@ const ProductCard = ({ product }) => {
   };
 
   return (
-    <Box borderWidth="1px" borderRadius="lg" overflow="hidden">
+    <Box borderWidth="1px" borderRadius="lg" overflow="hidden" maxW={{ base: "sm", md: "md" }}>
       <Image src={`https://via.placeholder.com/150?text=${product.title}`} alt={`Image of ${product.title}`} />
       <Box p="6">
         <Heading size="md" my="2">
