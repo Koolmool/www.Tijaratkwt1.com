@@ -12,10 +12,21 @@ const colors = {
 };
 
 const theme = extendTheme({
-  colors,
+  colors: {
+    ...colors,
+    background: "#000000", // Setting background color to black
+  },
   config: {
     initialColorMode: "dark",
     useSystemColorMode: false,
+  },
+  styles: {
+    global: {
+      // Setting default styles to use the new background color
+      body: {
+        bg: "background",
+      },
+    },
   },
 });
 
