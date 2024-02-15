@@ -22,7 +22,7 @@ const Index = () => {
 
         <Box p={6}>
           <Stack spacing={2}>
-            <Heading size="xl">Product Title</Heading>
+            <Heading size="xl">CARS</Heading>
             <Text fontWeight="bold" fontSize="2xl">
               $299.99
             </Text>
