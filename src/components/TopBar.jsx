@@ -7,7 +7,7 @@ const TopBar = () => {
     <Box width="100%" bg={colorMode === "dark" ? "gray.800" : "white"} px={4} py={2} boxShadow="md">
       <Flex justify="space-between" align="center">
         <Text fontSize="lg" fontWeight="bold">
-          MyShop
+          Tiجارت
         </Text>
         {/* Additional content can be added here */}
       </Flex>
