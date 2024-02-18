@@ -6,7 +6,7 @@ const BikesProducts = () => {
     <Box>
       <Text fontSize="2xl">Bike Products</Text>
       {/* List of bike products will be replaced with a new image */}
-      <Image src="https://via.placeholder.com/150?text=Bikes" alt="Bikes" />
+      <Image src="YOUR_NEW_IMAGE_URL" alt="Bikes" />
     </Box>
   );
 };
