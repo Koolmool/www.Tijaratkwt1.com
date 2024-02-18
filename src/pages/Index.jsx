@@ -46,6 +46,51 @@ const Index = () => {
           </Stack>
         </Box>
       </Box>
+      <Box maxW="lg" borderWidth="1px" borderRadius="lg" overflow="hidden" padding={6}>
+        <Heading size="xl">Item 3</Heading>
+        <Text fontWeight="bold" fontSize="2xl">
+          $99.99
+        </Text>
+        <Button colorScheme="blue" onClick={() => (window.location.href = "/products")}>
+          View Item 3
+        </Button>
+      </Box>
+      <Box maxW="lg" borderWidth="1px" borderRadius="lg" overflow="hidden" padding={6}>
+        <Heading size="xl">Item 4</Heading>
+        <Text fontWeight="bold" fontSize="2xl">
+          $99.99
+        </Text>
+        <Button colorScheme="blue" onClick={() => (window.location.href = "/products")}>
+          View Item 4
+        </Button>
+      </Box>
+      <Box maxW="lg" borderWidth="1px" borderRadius="lg" overflow="hidden" padding={6}>
+        <Heading size="xl">Item 5</Heading>
+        <Text fontWeight="bold" fontSize="2xl">
+          $99.99
+        </Text>
+        <Button colorScheme="blue" onClick={() => (window.location.href = "/products")}>
+          View Item 5
+        </Button>
+      </Box>
+      <Box maxW="lg" borderWidth="1px" borderRadius="lg" overflow="hidden" padding={6}>
+        <Heading size="xl">Item 6</Heading>
+        <Text fontWeight="bold" fontSize="2xl">
+          $99.99
+        </Text>
+        <Button colorScheme="blue" onClick={() => (window.location.href = "/products")}>
+          View Item 6
+        </Button>
+      </Box>
+      <Box maxW="lg" borderWidth="1px" borderRadius="lg" overflow="hidden" padding={6}>
+        <Heading size="xl">Item 7</Heading>
+        <Text fontWeight="bold" fontSize="2xl">
+          $99.99
+        </Text>
+        <Button colorScheme="blue" onClick={() => (window.location.href = "/products")}>
+          View Item 7
+        </Button>
+      </Box>
     </Flex>
   );
 };
