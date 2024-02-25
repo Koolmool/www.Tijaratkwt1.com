@@ -16,7 +16,7 @@ const SideMenu = () => {
           <DrawerCloseButton />
           <DrawerHeader>Menu</DrawerHeader>
           <DrawerBody>
-            <Button w="100%" mb={4} colorScheme="teal" onClick={() => navigate("/login")}>
+            <Button w="100%" mb={4} colorScheme="teal" onClick={() => window.open("https://preview-95484db1--login-authenticator.gptengineer.run/", "_blank")}>
               Login
             </Button>
           </DrawerBody>
