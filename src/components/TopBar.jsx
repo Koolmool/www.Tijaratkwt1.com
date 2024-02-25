@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Flex, Text, useColorMode } from "@chakra-ui/react";
+import { Box, Flex, Text, Input, useColorMode } from "@chakra-ui/react";
 import SideMenu from "./SideMenu";
 
 const TopBar = () => {
@@ -10,6 +10,7 @@ const TopBar = () => {
         <Text fontSize="lg" fontWeight="bold">
           Tiجارت
         </Text>
+        <Input placeholder="Search products..." width={{ base: "100px", sm: "200px", md: "300px" }} mr={4} />
         <SideMenu />
       </Flex>
     </Box>
