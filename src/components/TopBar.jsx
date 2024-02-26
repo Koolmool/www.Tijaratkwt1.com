@@ -16,7 +16,7 @@ const TopBar = () => {
     <Box width="100%" bg={colorMode === "dark" ? "gray.800" : "white"} px={{ base: 2, md: 4 }} py={2} boxShadow="md">
       <Flex justify="space-between" align="center">
         <Text fontSize="lg" fontWeight="bold">
-          {language === "en" ? "Tiجارت" : "تجارت"} // Example of text that would need to be translated
+          {language === "en" ? "Tiجارت" : "تجارت"}
         </Text>
         <Input placeholder={language === "en" ? "Search products..." : "...بحث عن المنتجات"} width={{ base: "100px", sm: "200px", md: "300px" }} mr={4} />
         <Button onClick={toggleLanguage}>{language === "en" ? "عربي" : "English"}</Button>
