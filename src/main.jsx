@@ -34,7 +34,23 @@ const theme = extendTheme({
   },
 });
 
+const direction = localStorage.getItem("chakra-ui-direction") || "ltr";
+
+const directionalTheme = extendTheme({
+  ...theme,
+  direction,
+});
+
 ReactDOM.createRoot(document.getElementById("root")).render(
+  <React.StrictMode>
+    <ChakraProvider theme={directionalTheme}>
+      <App />
+    </ChakraProvider>
+  </React.StrictMode>,
+);
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(
   <React.StrictMode>
     <ChakraProvider theme={theme}>
       <App />
