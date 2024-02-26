@@ -8,8 +8,8 @@ const BikesProducts = () => {
       <Loader />
       <Box>
         <Text fontSize="2xl">Bike Products</Text>
-        {/* List of bike products will be replaced with a new image */}
-        <Image src="YOUR_NEW_IMAGE_URL" alt="Bikes" />
+        {/* Image of bike products */}
+        <Image src="https://newimageurl.com/bike-image" alt="Bikes" />
       </Box>
     </>
   );
